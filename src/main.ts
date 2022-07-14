@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import { Layout, Menu, Button, Input } from 'ant-design-vue';
 import router from './router';
-import App from './App.vue';
+import App from './App';
 
 import 'ant-design-vue/dist/antd.css';
 

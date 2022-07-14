@@ -1,12 +1,10 @@
 <template>
-  <div>
-    Logo, Username, Permission
-  </div>
-  <Menu />
+  <div>Logo, Username, Permission</div>
+  <MainMenu />
 </template>
 
 <script setup lang="ts">
-import Menu from './Menu.vue';
+import MainMenu from './MainMenu';
 </script>
 
 <style lang="less" scoped></style>

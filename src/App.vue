@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import SideBar from './components/SideBar.vue';
-import PageTopBar from './components/PageTopBar.vue';
+import SideBar from './components/SideBar';
+import PageTopBar from './components/PageTopBar';
 </script>
 
 <style lang="less">
@@ -23,14 +23,13 @@ import PageTopBar from './components/PageTopBar.vue';
 
 .app-layout {
   height: 100%;
-  
+
   .sider-layout {
     height: 100%;
   }
-  
+
   .content-layout-header {
     background-color: #fff;
   }
 }
-
 </style>
